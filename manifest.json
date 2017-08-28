@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "EscrowMyEther",
+  "version": "1.0.0",
+  "minimum_chrome_version": "46",
+  "content_security_policy": "script-src 'self' 'sha256-I6Er8a0mW22rZ3YkWtBHNc/1knxL8esK2jZOK8UFUds='
+  ;script-src 'self' 'sha256-wod2pU8z0nyNucf0rFAMhaiMH33A452rZdtx+s92y38='
+  ;script-src 'self' 'sha256-OT5/mljVSVSgUrAu0xzlFD67ZrMZ2DEO8Vb/YYM4aWU='
+  ;script-src 'self' 'sha256-bDrs/E4hOoUY3cBgqAg0JhEBqP1KfOSQQ0uBrPctZjY='
+  ",
+ 
+}
