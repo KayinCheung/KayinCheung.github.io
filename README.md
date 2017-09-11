@@ -1,16 +1,16 @@
 # EscrowMyEther
-> Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a buyer and seller, to trade with their choice of escrow agent.
+Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a buyer and seller, to trade with their choice of escrow agent. Website: http://escrowmyether.com/
 
 
 ## Table of contents
-* Getting Started
-    * Using the Dapp dashboard
-	  - Select address
-	  - Withdrawing contract balance
+* [Getting Started[(https://github.com/KayinCheung/KayinCheung.github.io#getting-started)
+    * [Using the Dapp dashboard](https://github.com/KayinCheung/KayinCheung.github.io#using-the-dapp-dashboard)
+    * [Select address](https://github.com/KayinCheung/KayinCheung.github.io#select-address)
+    * [Withdrawing contract balance](https://github.com/KayinCheung/KayinCheung.github.io#withdrawing-contract-balance)
 
-* Initiating new escrow transaction
+* [Initiating new escrow transaction](https://github.com/KayinCheung/KayinCheung.github.io#initiating-new-escrow-transaction)
     * Find an escrow agent
-    * Prepare the following info
+    * Prepare transaction info
     
 * Interacting with existing transaction
     * Buyer
@@ -22,16 +22,13 @@
 * Changelog
 * Author
 
-	  
-* v1.0	- 9 September 2017 
-    * Initial commit
 
 ## Getting Started
 
 Install Ethereum node software:
 
-- Metamask Chrome Extension (https://metamask.io/)
-- Parity Chrome Extension (https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
+- [Metamask Chrome Extension](https://metamask.io/)
+- [Parity Chrome Extension](https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
 
 We recommend Metamask as they provide a fully synced Ethereum node. Parity requires you to sync a node and can take a few hours to a few days. The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
 
@@ -66,11 +63,11 @@ Contract balance can only be withdrawn to your address. The Dapp does not allow 
 
 A new escrow transaction can be created by clicking "Initialize new transaction" under buyer dashboard. 
 
-### 1) Reach an agreement with the seller on the escrow agent for your transaction.
+### 1) Finding an escrow agent
 
 A fair escrow lowers transaction fees and costs associated with buyer fraud for sellers while providing you with buyer protection. If you are buying/selling on a forum, we recommend having a forum moderator to escrow for your transaction. It is important to choose a good escrow agent for your protection. Never use an unknown escrow agent.
 
-### 2) Have the following info at hand
+### 2) Prepare transaction info
 
 - Seller Address
 
