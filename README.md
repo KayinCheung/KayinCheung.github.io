@@ -11,7 +11,8 @@ Install Web3 Client:
 - Metamask Chrome Extension (https://metamask.io/)
 - Parity Chrome Extension (https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
 
-We recommend Metamask as they provide a fully synced Ethereum node. Parity requires you to sync a node and can take a few hours to a few days.
+We recommend Metamask as they provide a fully synced Ethereum node. Parity requires you to sync a node and can take a few hours to a few days. The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
+
 *Make sure to connect to Ropsten test net during beta testing.
 
 
