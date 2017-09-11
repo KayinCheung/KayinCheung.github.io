@@ -2,11 +2,33 @@
 > Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a buyer and seller, to trade with their choice of escrow agent.
 
 
-![](Buyer_Dashboard.png)
+## Table of contents
+* Getting Started
+    * Using the Dapp dashboard
+	  - Select address
+	  - Withdrawing contract balance
+
+* Initiating new escrow transaction
+    * Find an escrow agent
+    * Prepare the following info
+    
+* Interacting with existing transaction
+    * Buyer
+    * Seller
+    * Escrow
+    
+* Update profile information
+* Further questions
+* Changelog
+* Author
+
+	  
+* v1.0	- 9 September 2017 
+    * Initial commit
 
 ## Getting Started
 
-Install Web3 Client:
+Install Ethereum node software:
 
 - Metamask Chrome Extension (https://metamask.io/)
 - Parity Chrome Extension (https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
@@ -16,10 +38,10 @@ We recommend Metamask as they provide a fully synced Ethereum node. Parity requi
 *Make sure to connect to Ropsten test net during beta testing.
 
 
-## Using the Dapp dashboard
+## Using the dashboard
 
 EscrowMyEther has seperate dashboards for buyers, sellers and escrow agents. 
-![](Buyer_Dashboard.png)
+
 
 ### Select address
 Choose your ethereum address from the dropdown. The dashboard automatically loads your address balance, contract balance (explained below) and your transaction history with the Dapp.
@@ -79,7 +101,7 @@ A section to associate a name and information to an ethereum address. Escrow age
 Feel free to post your questions on our subreddit forum, send a pm on reddit or raise an issue on github.
 
 
-## Release History
+## Changelog
 
 * v1.1	- 10 September 2017
     * EscrowMyEther Contract: 
