@@ -39,15 +39,15 @@ Escrow agents - When the transaction is complete and escrow fee is collected
 Contract balance can only be withdrawn to your address. The Dapp does not allow contract balance to be spent on new transactions.
 
 
-### Initiating new escrow transaction
+## Initiating new escrow transaction
 
 A new escrow transaction can be created by clicking "Initialize new transaction" under buyer dashboard. 
 
-1) Reach an agreement with the seller on the escrow agent for your transaction.
+### 1) Reach an agreement with the seller on the escrow agent for your transaction.
 
 A fair escrow lowers transaction fees and costs associated with buyer fraud for sellers while providing you with buyer protection. If you are buying/selling on a forum, we recommend having a forum moderator to escrow for your transaction. It is important to choose a good escrow agent for your protection. Never use an unknown escrow agent.
 
-2) Have the following info at hand
+### 2) Have the following info at hand
 
 - Seller Address
 
@@ -56,6 +56,18 @@ A fair escrow lowers transaction fees and costs associated with buyer fraud for 
 - Amount of Ether to send
 
 Fill up the fields and click "proceed to confirmation". Confirm the transaction in your ethereum node and your escrow transaction will be created!
+
+### 3) Interacting with a transaction
+Enter the transaction ID here and click one of the two buttons to interact with the transaction.
+
+#### Buyers
+Buyers can release funds to seller, or raise escrow escalation.
+
+#### Sellers
+Sellers can refund the transaction to buyer, or raise escrow escalation.
+
+#### Escrow Agent
+When escrow escalation is activated, escrow agents can refund the buyer, or release funds to seller. Escrow escalation can be activated by either the buyer or seller. If escrow escalation is inactive, escrow agents cannot interact with the transaction.
 
 
 **Update in progress
