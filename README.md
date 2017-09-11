@@ -3,24 +3,24 @@ Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a bu
 
 
 ## Table of contents
-* [Getting Started[(https://github.com/KayinCheung/KayinCheung.github.io#getting-started)
-    * [Using the Dapp dashboard](https://github.com/KayinCheung/KayinCheung.github.io#using-the-dapp-dashboard)
+* [Getting Started](https://github.com/KayinCheung/KayinCheung.github.io#getting-started)
+    * [Using the Dapp dashboard](https://github.com/KayinCheung/KayinCheung.github.io#using-the-dashboard)
     * [Select address](https://github.com/KayinCheung/KayinCheung.github.io#select-address)
     * [Withdrawing contract balance](https://github.com/KayinCheung/KayinCheung.github.io#withdrawing-contract-balance)
 
 * [Initiating new escrow transaction](https://github.com/KayinCheung/KayinCheung.github.io#initiating-new-escrow-transaction)
-    * Find an escrow agent
-    * Prepare transaction info
+    * [Finding an escrow agent](https://github.com/KayinCheung/KayinCheung.github.io#1-finding-an-escrow-agent)
+    * [Prepare transaction info](https://github.com/KayinCheung/KayinCheung.github.io#2-prepare-transaction-info)
     
-* Interacting with existing transaction
-    * Buyer
-    * Seller
-    * Escrow
+* [Interact with existing transaction](https://github.com/KayinCheung/KayinCheung.github.io#3-interact-with-existing-transaction)
+    * [Buyer](https://github.com/KayinCheung/KayinCheung.github.io#buyers)
+    * [Seller](https://github.com/KayinCheung/KayinCheung.github.io#sellers)
+    * [Escrow](https://github.com/KayinCheung/KayinCheung.github.io#escrow-agent)
     
-* Update profile information
-* Further questions
-* Changelog
-* Author
+* [Update profile information](https://github.com/KayinCheung/KayinCheung.github.io#update-profile-information)
+* [Further questions](https://github.com/KayinCheung/KayinCheung.github.io#further-questions)
+* [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#changelog)
+* [Author](https://github.com/KayinCheung/KayinCheung.github.io#authors)
 
 
 ## Getting Started
@@ -77,7 +77,7 @@ A fair escrow lowers transaction fees and costs associated with buyer fraud for 
 
 Fill up the fields and click "proceed to confirmation". Confirm the transaction in your ethereum node and your escrow transaction will be created!
 
-### 3) Interacting with a transaction
+### 3) Interact with existing transaction
 Enter the transaction ID here and click one of the two buttons to interact with the transaction.
 
 #### Buyers
@@ -111,5 +111,5 @@ Feel free to post your questions on our subreddit forum, send a pm on reddit or 
 
 ## Authors
 
-Cheung Ka Yin – Arrow222 (Reddit)
+Cheung Ka Yin – [Arrow222(Reddit)](https://www.reddit.com/user/Arrow222/)
 
