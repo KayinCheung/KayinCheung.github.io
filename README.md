@@ -70,9 +70,12 @@ Sellers can refund the transaction to buyer, or raise escrow escalation.
 When escrow escalation is activated, escrow agents can refund the buyer, or release funds to seller. Escrow escalation can be activated by either the buyer or seller. If escrow escalation is inactive, escrow agents cannot interact with the transaction.
 
 
-**Update in progress
+## Update profile information
+A section to associate a name and information to an ethereum address. Escrow agents can also set their fee percentage here, otherwise it default to zero. There are plans to integrate these information in the Dapp and to build a search function in the future. For now this feature is largely unused, except for setting escrow fees.
 
 
+## Further questions
+Feel free to post your questions on our subreddit forum, send a pm on reddit or raise an issue on github.
 
 
 ## Release History
