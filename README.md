@@ -38,6 +38,7 @@ We recommend Metamask as they provide a fully synced Ethereum node. Parity requi
 ## Using the dashboard
 
 EscrowMyEther has seperate dashboards for buyers, sellers and escrow agents. 
+![buyer_dashboard](https://user-images.githubusercontent.com/24837709/30322379-df085308-97eb-11e7-86c7-69daceeca25b.jpg)
 
 
 ### Select address
