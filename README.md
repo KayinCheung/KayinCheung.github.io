@@ -38,13 +38,21 @@ We recommend Metamask as they provide a fully synced Ethereum node. Parity requi
 ## Using the dashboard
 
 EscrowMyEther has seperate dashboards for buyers, sellers and escrow agents. 
+
+##### Screenshot of buyer dashboard
+
 ![buyer_dashboard](https://user-images.githubusercontent.com/24837709/30322379-df085308-97eb-11e7-86c7-69daceeca25b.jpg)
 
 
 ### Select address
+
+![select address](https://user-images.githubusercontent.com/24837709/30322994-0dace67c-97ee-11e7-92cf-2623f582a3ff.jpg)
+
 Choose your ethereum address from the dropdown. The dashboard automatically loads your address balance, contract balance (explained below) and your transaction history with the Dapp.
 
 ### Withdrawing contract balance
+
+![withdraw_funds](https://user-images.githubusercontent.com/24837709/30323111-8bb3219e-97ee-11e7-988e-633e2b47c524.jpg)
 
 Contract balances are like a Paypal balance. Ether in the contract balance belongs to the address and is safely stored in the smart contract.
 The address owner can click "Withdraw balance" at any time to withdraw Ether in contract balance to his own address. Just like how Paypal balance is withdrawn to your bank.
@@ -77,6 +85,9 @@ A fair escrow lowers transaction fees and costs associated with buyer fraud for 
 - Amount of Ether to send
 
 Fill up the fields and click "proceed to confirmation". Confirm the transaction in your ethereum node and your escrow transaction will be created!
+
+![initialize transaction](https://user-images.githubusercontent.com/24837709/30327336-43b530b6-97fe-11e7-89ff-8362cf245d85.jpg)
+
 
 ### 3) Interact with existing transaction
 Enter the transaction ID here and click one of the two buttons to interact with the transaction.
