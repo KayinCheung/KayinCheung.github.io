@@ -48,11 +48,9 @@ EscrowMyEther has seperate dashboards for buyers, sellers and escrow agents.
 
 ![select address](https://user-images.githubusercontent.com/24837709/30322994-0dace67c-97ee-11e7-92cf-2623f582a3ff.jpg)
 
-Choose your ethereum address from the dropdown. The dashboard automatically loads your address balance, contract balance (explained below) and your transaction history with the Dapp.
+Choose your ethereum address from the dropdown. The dashboard automatically loads your address balance, contract balance, and your transaction history with the Dapp.
 
 ### Withdrawing contract balance
-
-![withdraw_funds](https://user-images.githubusercontent.com/24837709/30323111-8bb3219e-97ee-11e7-988e-633e2b47c524.jpg)
 
 Contract balances are like a Paypal balance. Ether in the contract balance belongs to the address and is safely stored in the smart contract.
 The address owner can click "Withdraw balance" at any time to withdraw Ether in contract balance to his own address. Just like how Paypal balance is withdrawn to your bank.
