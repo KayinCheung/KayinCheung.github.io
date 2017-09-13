@@ -19,7 +19,8 @@ Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a bu
     
 * [Update profile information](https://github.com/KayinCheung/KayinCheung.github.io#update-profile-information)
 * [Further questions](https://github.com/KayinCheung/KayinCheung.github.io#further-questions)
-* [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#changelog)
+* [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#smart-contract-changelog)
+* [Known Issues](https://github.com/KayinCheung/KayinCheung.github.io#known-issues)
 * [Author](https://github.com/KayinCheung/KayinCheung.github.io#authors)
 
 
@@ -108,7 +109,7 @@ A section to associate a name and information to an ethereum address. Escrow age
 Feel free to post your questions on our subreddit forum, send a pm on reddit or raise an issue on github.
 
 
-## Changelog
+## Smart Contract Changelog
 
 * v1.1	- 10 September 2017
     * EscrowMyEther Contract: 
@@ -118,6 +119,19 @@ Feel free to post your questions on our subreddit forum, send a pm on reddit or 
 	  
 * v1.0	- 9 September 2017 
     * Initial commit
+    
+## Website Changelog
+
+I will keep a website changelog after official launch.  Too many updates now.
+
+## Known Issues
+
+* On buyer/seller/escrow dashboards, transaction history gets visually misaligned when toggling next page and previous page. 
+
+* Exponential numbers (eg 1e5) are incorrectly considered valid inputs in "Amount to Send [ETH]" input field.
+
+* Refreshing website re-direct users to homepage and occassionally shows "Ethereum Node not connected" despite being connected. 
+
 
 ## Authors
 
