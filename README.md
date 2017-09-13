@@ -19,6 +19,7 @@ Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a bu
     
 * [Update profile information](https://github.com/KayinCheung/KayinCheung.github.io#update-profile-information)
 * [Further questions](https://github.com/KayinCheung/KayinCheung.github.io#further-questions)
+* [How the smart contract works](https://github.com/KayinCheung/KayinCheung.github.io#how-the-smart-contract-works)
 * [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#smart-contract-changelog)
 * [Known Issues](https://github.com/KayinCheung/KayinCheung.github.io#known-issues)
 * [Author](https://github.com/KayinCheung/KayinCheung.github.io#authors)
@@ -107,6 +108,23 @@ A section to associate a name and information to an ethereum address. Escrow age
 
 ## Further questions
 Feel free to post your questions on our subreddit forum, send a pm on reddit or raise an issue on github.
+
+
+## How the smart contract works
+
+When buyers initiate a transaction, 0.25% is taken as dev fee and moved under contract creator's ownership. The remainder 99.75% of funds is locked in the smart contract. If a transaction proceeds smoothly, the buyer can call "buyerFundRelease" with the transaction ID to move ownership of the locked funds (minus escrow fee) to seller. At the same time, escrow fee is moved to escrow's ownership.
+
+
+Seller can voluntarily refund the buyer by calling "sellerRefund" with sale ID. This moves the funds ownership back to the buyer (minus escrow fees), and the escrow fees under escrow's ownership.
+
+
+If a dispute happens, either buyer or seller can call "EscrowEscalation". This unlocks the escrow agent's ability to refund the buyer, or release funds to seller. If escrow escalation is not called, the escrow agent has no power to intervene.
+
+
+Whenever funds are released to seller, or funds are refunded to buyer, the transaction is considered complete. Transaction state will be frozen, any function calls to modify that transaction state will fail.
+
+
+When funds are transferred to an address's ownership, they are stored in a Funds bank. It's displayed as Contract balance on the Dapp dashboard. These funds can be withdrawn at anytime to the owner's address for spending.
 
 
 ## Smart Contract Changelog
