@@ -32,7 +32,9 @@ Install Ethereum node software:
 - [Metamask Chrome Extension](https://metamask.io/)
 - [Parity Chrome Extension](https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
 
-We recommend Metamask as they provide a fully synced Ethereum node. Parity requires you to sync a node and can take a few hours to a few days. The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
+Metamask as they provide a fully synced Ethereum node and is easiest to setup. Parity requires storing the blockchain locally and takes time to sync your node. Power users may benefit from Parity (such as high volume sellers and escrows), as it loads transaction history quicker.
+
+The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
 
 *Make sure to connect to Ropsten test net during beta testing.
 
@@ -103,7 +105,13 @@ When escrow escalation is activated, escrow agents can refund the buyer, or rele
 
 
 ## Update profile information
-A section to associate a name and information to an ethereum address. Escrow agents can also set their fee percentage here, otherwise it default to zero. There are plans to integrate these information in the Dapp and to build a search function in the future. For now this feature is largely unused, except for setting escrow fees.
+A section to associate a name and information to an ethereum address. Escrow agents also set their fee percentage here, otherwise it default to zero. 
+
+Seller and escrow profile names are shown as buyers create new transactions. When the buyer enters seller address, the seller profile name is displayed in green. Same with escrow address and escrow name.
+![modify_profile](https://user-images.githubusercontent.com/24837709/30523431-b56e1bbe-9c13-11e7-9231-6df8e6a742ee.jpg)
+If profile name isn't set for the input address, a warning message, "Unregistered Seller" or "Unregistered Escrow" appears in orange.
+
+Buyers can still create new transaction with unregistered sellers and escrows, but please double check with the seller or escrow agent, in case they provided the wrong address. 
 
 
 ## Further questions
@@ -128,6 +136,13 @@ When funds are transferred to an address's ownership, they are stored in a Funds
 
 
 ## Smart Contract Changelog
+
+* v1.2	- 18 September 2017
+    * EscrowMyEther Contract: 
+	  - Updated WithdrawFunds function to eliminate chance of re-entrancy attacks.
+	  - Fixed critical contract draining bug in escrowDecision.  
+	  - No longer fixed to returning 10 transaction history per call. Number can be specified now.	  
+	  - Contract Deployed on Ropsten testnet at https://ropsten.etherscan.io/address/0xabd94b3ce2b270d89341d31a1a708b8004436354
 
 * v1.1	- 10 September 2017
     * EscrowMyEther Contract: 
