@@ -157,11 +157,9 @@ When funds are transferred to an address's ownership, they are stored in a Funds
 
 I will keep a website changelog after official launch.  Too many updates now.
 
-## Known Issues
+## Known Issues 
 
-* On buyer/seller/escrow dashboards, transaction history gets visually misaligned when toggling next page and previous page. 
-
-* Exponential numbers (eg 1e5) are incorrectly considered valid inputs in "Amount to Send [ETH]" input field.
+* Exponential numbers (eg 1e5) are incorrectly considered valid inputs in "Amount to Send [ETH]" input field on new transactions page.
 
 * Refreshing website re-direct users to homepage and occassionally shows "Ethereum Node not connected" despite being connected. 
 
