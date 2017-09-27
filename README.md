@@ -153,6 +153,17 @@ When funds are transferred to an address's ownership, they are stored in a Funds
 * v1.0	- 9 September 2017 
     * Initial commit
     
+    
+## Why EscrowMyEther was created
+
+Transactions over the internet are mostly governed by financial institutions like PayPal and Credit Card companies. With the high lifetime value of Credit Card holders and the lack of alternatives for merchants, financial institutions are inherently biased towards customers when dispute arises.
+
+Lack of competition causes fees to be high. A certain percentage of buyer fraud, transaction fees and currency conversion fees is unavoidable.
+
+These added costs cause a taxation effect, increasing prices for honest customers and reducing profits for merchants. Payment by cryptocurrency solves the issue for merchants, however it provides no protection for buyers if merchants fail to fulfil their obligations. 
+    
+What’s needed is a transaction method that offer the benefits of cryptocurrency payments, yet has a built in escrow mechanism with fair dispute resolution. 
+
 ## Website Changelog
 
 I will keep a website changelog after official launch.  Too many updates now.
