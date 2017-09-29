@@ -18,7 +18,6 @@ Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a bu
     * [Escrow](https://github.com/KayinCheung/KayinCheung.github.io#escrow-agent)
     
 * [Update profile information](https://github.com/KayinCheung/KayinCheung.github.io#update-profile-information)
-* [Further questions](https://github.com/KayinCheung/KayinCheung.github.io#further-questions)
 * [How the smart contract works](https://github.com/KayinCheung/KayinCheung.github.io#how-the-smart-contract-works)
 * [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#smart-contract-changelog)
 * [Known Issues](https://github.com/KayinCheung/KayinCheung.github.io#known-issues)
@@ -114,10 +113,6 @@ If profile name isn't set for the input address, a warning message, "Unregistere
 Buyers can still create new transaction with unregistered sellers and escrows, but please double check with the seller or escrow agent, in case they provided the wrong address. 
 
 
-## Further questions
-Feel free to post your questions on our subreddit forum, send a pm on reddit or raise an issue on github.
-
-
 ## How the smart contract works
 
 When buyers initiate a transaction, 0.25% is taken as dev fee and moved under contract creator's ownership. The remainder 99.75% of funds is locked in the smart contract. If a transaction proceeds smoothly, the buyer can call "buyerFundRelease" with the transaction ID to move ownership of the locked funds (minus escrow fee) to seller. At the same time, escrow fee is moved to escrow's ownership.
@@ -164,9 +159,6 @@ These added costs cause a taxation effect, increasing prices for honest customer
     
 What’s needed is a transaction method that offer the benefits of cryptocurrency payments, yet has a built in escrow mechanism with fair dispute resolution. 
 
-## Website Changelog
-
-I will keep a website changelog after official launch.  Too many updates now.
 
 ## Known Issues 
 
