@@ -132,20 +132,26 @@ When funds are transferred to an address's ownership, they are stored in a Funds
 
 ## Smart Contract Changelog
 
-* v1.2	- 18 September 2017
+* v1.2 Mainnet - 28 September 2017
+    * Mainnet deployment: 
+	  - Escrow Contract: https://etherscan.io/address/0x1c02ce498dc6d0d6ef05a253e021258b07eeba91
+	  - Entity Name Storage Contract: https://etherscan.io/address/0xcf356ab67132c1359ebdd0ccc928fdb020eaa929  
+	  
+
+* v1.2 Beta - 18 September 2017
     * EscrowMyEther Contract: 
 	  - Updated WithdrawFunds function to eliminate chance of re-entrancy attacks.
 	  - Fixed critical contract draining bug in escrowDecision.  
 	  - No longer fixed to returning 10 transaction history per call. Number can be specified now.	  
 	  - Contract Deployed on Ropsten testnet at https://ropsten.etherscan.io/address/0xabd94b3ce2b270d89341d31a1a708b8004436354
 
-* v1.1	- 10 September 2017
+* v1.1 Beta - 10 September 2017
     * EscrowMyEther Contract: 
 	  - BuyerFundRelease function now requires refund_approval to be false.
 	  - Recompiled with Solidity v0.4.16+commit.d7661dd9
 	  - Contract Deployed on Ropsten testnet at https://ropsten.etherscan.io/address/0xe509a834bf9ee3c27af895609e5cdd2f455c4854
 	  
-* v1.0	- 9 September 2017 
+* v1.0	Beta - 9 September 2017 
     * Initial commit
     
     
