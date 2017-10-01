@@ -41,9 +41,9 @@ The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node
 
 EscrowMyEther has seperate dashboards for buyers, sellers and escrow agents. 
 
-##### Screenshot of buyer dashboard
+##### Screenshot of Seller dashboard
 
-![buyer_dashboard](https://user-images.githubusercontent.com/24837709/30322379-df085308-97eb-11e7-86c7-69daceeca25b.jpg)
+![seller_dashboard](https://user-images.githubusercontent.com/24837709/31041944-3efd3520-a5d0-11e7-8f3c-ff5387f6d2b7.jpg)
 
 
 ### Select address
@@ -86,7 +86,7 @@ A fair escrow lowers transaction fees and costs associated with buyer fraud for 
 
 Fill up the fields and click "proceed to confirmation". Confirm the transaction in your ethereum node and your escrow transaction will be created!
 
-![initialize transaction](https://user-images.githubusercontent.com/24837709/30327336-43b530b6-97fe-11e7-89ff-8362cf245d85.jpg)
+![initialize transaction](https://user-images.githubusercontent.com/24837709/31041945-3efdff1e-a5d0-11e7-92dc-adb391e6b77c.jpg)
 
 
 ### 3) Interact with existing transaction
