@@ -35,7 +35,6 @@ Metamask as they provide a fully synced Ethereum node and is easiest to setup. P
 
 The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
 
-*Make sure to connect to Ropsten test net during beta testing.
 
 
 ## Using the dashboard
