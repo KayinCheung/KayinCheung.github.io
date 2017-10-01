@@ -164,6 +164,8 @@ These added costs cause a taxation effect, increasing prices for honest customer
     
 What’s needed is a transaction method that offer the benefits of cryptocurrency payments, yet has a built in escrow mechanism with fair dispute resolution. 
 
+By creating EscrowMyEther, online transaction methods with escrow protection are not limited to Paypal or financial institutions. Anyone can be the "Paypal" for their community, charge a fee and offer their escrow services. By introducing free market competition, we hope it drives escrow fees down and service levels up, benefiting anyone who transacts online.
+
 
 ## Known Issues 
 
