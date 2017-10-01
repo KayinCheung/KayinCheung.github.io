@@ -176,7 +176,10 @@ What’s needed is a transaction method that offer the benefits of cryptocurrenc
 ## Authors
 
 Cheung Ka Yin 
+
 AKA
+
 [Arrow222(Reddit)](https://www.reddit.com/user/Arrow222/)
+
 [KaydenC (bitcointalk)](https://bitcointalk.org/index.php?action=profile;u=960616)
 
