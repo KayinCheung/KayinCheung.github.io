@@ -178,9 +178,4 @@ By creating EscrowMyEther, online transaction methods with escrow protection are
 
 Cheung Ka Yin 
 
-AKA
-
-[Arrow222(Reddit)](https://www.reddit.com/user/Arrow222/)
-
-[KaydenC (bitcointalk)](https://bitcointalk.org/index.php?action=profile;u=960616)
-
+Contact: EscrowMyEther<at>gmail<dot>com
