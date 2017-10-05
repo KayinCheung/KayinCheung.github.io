@@ -31,7 +31,7 @@ Install Ethereum node software:
 - [Metamask Chrome Extension](https://metamask.io/)
 - [Parity Chrome Extension](https://chrome.google.com/webstore/detail/parity-ethereum-integrati/himekenlppkgeaoeddcliojfddemadig)
 
-Metamask as they provide a fully synced Ethereum node and is easiest to setup. Parity requires storing the blockchain locally and takes time to sync your node. Power users may benefit from Parity (such as high volume sellers and escrows), as it loads transaction history quicker.
+We suggest Metamask as they provide a fully synced Ethereum node and only takes 3 mins to setup. Parity requires storing the blockchain locally and takes time to sync your node. Power users may benefit from Parity (such as high volume sellers and escrows), as it loads transaction history quicker.
 
 The Dapp is developed on Google chrome, Parity and Metamask. Other ethereum node and browser combinations may work, but are untested and unsupported.
 
@@ -178,4 +178,4 @@ By creating EscrowMyEther, online transaction methods with escrow protection are
 
 Cheung Ka Yin 
 
-Contact: EscrowMyEther<at>gmail<dot>com
+Contact: EscrowMyEther at gmail dot com
