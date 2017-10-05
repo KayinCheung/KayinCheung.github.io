@@ -84,9 +84,14 @@ A fair escrow lowers transaction fees and costs associated with buyer fraud for 
 
 - Amount of Ether to send
 
+- Notes for Seller (optional)
+
 Fill up the fields and click "proceed to confirmation". Confirm the transaction in your ethereum node and your escrow transaction will be created!
 
-![initialize transaction](https://user-images.githubusercontent.com/24837709/31041945-3efdff1e-a5d0-11e7-92dc-adb391e6b77c.jpg)
+![initialize transaction](https://user-images.githubusercontent.com/24837709/31051404-cfbd440a-a699-11e7-9c97-0f9134f3cdaf.jpg)
+
+
+Be sure to check that the Seller and Escrow's name and fee is correct. If it shows "Unregistered Seller" or "Unregistered Escrow" make sure to double check.
 
 
 ### 3) Interact with existing transaction
