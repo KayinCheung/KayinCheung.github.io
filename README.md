@@ -90,7 +90,7 @@ Fill up the fields and click "proceed to confirmation". Confirm the transaction 
 
 
 ### 3) Interact with existing transaction
-Enter the transaction ID here and click one of the two buttons to interact with the transaction.
+On your dashboard, click on the transaction to view details.
 
 #### Buyers
 Buyers can release funds to seller, or raise escrow escalation.
@@ -101,6 +101,7 @@ Sellers can refund the transaction to buyer, or raise escrow escalation.
 #### Escrow Agent
 When escrow escalation is activated, escrow agents can refund the buyer, or release funds to seller. Escrow escalation can be activated by either the buyer or seller. If escrow escalation is inactive, escrow agents cannot interact with the transaction.
 
+![interact with transaction](https://user-images.githubusercontent.com/24837709/31041943-3ef37698-a5d0-11e7-87bc-f15ca9d95e04.jpg)
 
 ## Update profile information
 A section to associate a name and information to an ethereum address. Escrow agents also set their fee percentage here, otherwise it default to zero. 
