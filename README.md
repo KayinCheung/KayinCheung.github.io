@@ -19,6 +19,7 @@ Open Source Ethereum Smart Contract Dapp that allows 2 transacting parties, a bu
     
 * [Update profile information](https://github.com/KayinCheung/KayinCheung.github.io#update-profile-information)
 * [How the smart contract works](https://github.com/KayinCheung/KayinCheung.github.io#how-the-smart-contract-works)
+* [Integrate EscrowMyEther in your site](https://github.com/KayinCheung/KayinCheung.github.io#integration)
 * [Changelog](https://github.com/KayinCheung/KayinCheung.github.io#smart-contract-changelog)
 * [Known Issues](https://github.com/KayinCheung/KayinCheung.github.io#known-issues)
 * [Author](https://github.com/KayinCheung/KayinCheung.github.io#authors)
@@ -133,6 +134,10 @@ Whenever funds are released to seller, or funds are refunded to buyer, the trans
 
 
 When funds are transferred to an address's ownership, they are stored in a Funds bank. It's displayed as Contract balance on the Dapp dashboard. These funds can be withdrawn at anytime to the owner's address for spending.
+
+## Integration
+
+Please refer to https://github.com/escrowmyetherbd/escrowmyetherbd.github.io. It's a repository for developers to customize and integrate EscrowMyEther's in other sites. For example if you run a real estate site, you can hard code your address as the escrow agent, and escrow for all transactions on your site.
 
 
 ## Smart Contract Changelog
