@@ -112,6 +112,8 @@ When escrow escalation is activated, escrow agents can refund the buyer, or rele
 ## Update profile information
 A section to associate a name and information to an ethereum address. Escrow agents also set their fee percentage here, otherwise it default to zero. 
 
+![Update profile](https://user-images.githubusercontent.com/24837709/31041959-8eb9cce0-a5d0-11e7-9e81-db1e4a281225.jpg)
+
 Seller and escrow profile names are shown as buyers create new transactions. When the buyer enters seller address, the seller profile name is displayed in green. Same with escrow address and escrow name.
 ![modify_profile](https://user-images.githubusercontent.com/24837709/30523431-b56e1bbe-9c13-11e7-9231-6df8e6a742ee.jpg)
 If profile name isn't set for the input address, a warning message, "Unregistered Seller" or "Unregistered Escrow" appears in orange.
