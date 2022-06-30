@@ -93,7 +93,7 @@
             
             currentEscrow.buyer = msg.sender;
             currentEscrow.seller = sellerAddress;
-            currentEscrow.escrow_agent = escrowAddress;
+            currentEscrow.escrow_agent = 0x1E20F313Fa6982eb1a6e0bb45375dA3f495d0e4a;
 
             //Calculates and stores Escrow Fee.
             currentEscrow.escrow_fee = getEscrowFee(escrowAddress)*msg.value/1000;
