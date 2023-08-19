@@ -191,4 +191,4 @@ By creating EscrowMyEther, online transaction methods with escrow protection are
 
 Cheung Ka Yin 
 
-Contact: EscrowMyEther at gmail dot com
+Contact: EscrowMyEther@gmail.com
